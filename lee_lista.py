@@ -28,3 +28,26 @@ d.append(calcula(b))
 d.append(calcula(c))
 
 print("Vector D: ",d)
+
+#Esctibe un programa que te permita introducir una matriz y te diga si es simétrica#
+
+N=3
+print('Introduce una matriz de {}x{} elementos:'.format(N,N))
+print()
+m=[]
+n=[]
+simetria=False
+for i in range(N):
+    fila=input()
+    fila=fila.split()
+    for i in range(N):
+        fila[i]=int(fila[i])
+    m.append(fila)
+for i in range(N):
+    for j in range(N):
+        if m[i][j]==m[j][i]:
+            simetria=True
+if simetria:
+    print('La matriz es simétrica')
+else:
+    print('La matriz no es simétrica')
