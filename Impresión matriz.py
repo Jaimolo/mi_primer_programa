@@ -38,3 +38,6 @@ n = int(input("Mete un número: "))
 tb = tabla(n)
 print(tb)
 
+
+
+
