@@ -1,10 +1,9 @@
 
+numero_inicial=10
 
-number_to_guess = 2
-
-user_number = int(input(" Adivina un número: "))
-
-while number_to_guess != user_number:
-    print("Has fallado")
-    user_number = int(input("Introduce otro número: "))
-print(" Has acertado")
+while numero_inicial >0:
+    if numero_inicial=10:
+        print(numero_inicial)
+        numero_inicial-=1
+    numero_inicial-=1
+    print(numero_inicial)
